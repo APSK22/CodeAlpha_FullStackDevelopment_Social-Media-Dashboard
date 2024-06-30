@@ -10,7 +10,7 @@ function Footer({ theme }) {
           className={`footer-link ${theme ? "lime-green" : ""}`}
           target="_blank"
         >
-          Ajay Pratap Singh Kulharia
+          Ajay Pratap Singh Kulharia.
         </a>
       </div>
     </footer>
