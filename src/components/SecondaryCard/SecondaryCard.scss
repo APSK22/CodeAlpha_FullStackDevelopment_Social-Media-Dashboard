@@ -1,0 +1,87 @@
+.secondary-card {
+  width: 270px;
+  height: 150px;
+  background-color: hsl(227, 47%, 96%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.4rem;
+
+  .header-container,
+  .number-card-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-container {
+    .title-card {
+      font-size: 0.94rem;
+      font-weight: 700;
+      color: hsl(228, 12%, 44%);
+    }
+
+    .desatured-blue {
+      color: hsl(228, 34%, 66%);
+    }
+
+    img {
+      width: 22px;
+    }
+  }
+
+  .number-card-container {
+    .number-card {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 700;
+      color: hsl(230, 17%, 14%);
+    }
+
+    .white {
+      color: hsl(0, 0%, 100%);
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+
+      img {
+        width: 10px;
+      }
+
+      .percentage-card {
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: hsl(163, 72%, 41%);
+      }
+    }
+  }
+}
+
+.dark-desaturated-blue {
+  background-color: hsl(228, 28%, 20%);
+}
+
+.secondary-card:hover {
+  cursor: pointer;
+  background-color: hsl(230, 23%, 90%);
+}
+
+.dark:hover {
+  background-color: hsl(228, 22%, 28%);
+}
+
+.secondary-card:nth-child(2),
+.secondary-card:nth-child(7),
+.secondary-card:nth-child(8) {
+  div {
+    .percentage-card {
+      color: hsl(356, 69%, 56%);
+    }
+  }
+}
