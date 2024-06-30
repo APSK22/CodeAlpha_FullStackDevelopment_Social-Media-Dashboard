@@ -2,6 +2,9 @@
 
 A responsive social media dashboard built with React, Tailwind CSS, and Vite, featuring dynamic layout adjustments, interactive hover and focus states, and a toggleable dark theme.
 
+https://github.com/APSK22/CodeAlpha_FullStackDevelopment_Social-Media-Dashboard/assets/158535097/a37fa8f6-da84-475c-b08e-2832142372aa
+
+
 ## Features
 
 - **Responsive Design**: The dashboard adjusts to provide the optimal layout based on the device's screen size.
